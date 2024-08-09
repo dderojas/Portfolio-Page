@@ -40,8 +40,12 @@ function App() {
               I'm a full-stack software engineer with a passion for collaborative and creative problem solving
               </p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                <AiFillLinkedin />
-                <AiOutlineGithub />
+                <a href='https://www.linkedin.com/in/dderojas/' className='text-black hover:text-black'>
+                  <AiFillLinkedin />
+                </a>
+                <a href='https://github.com/dderojas' className='text-black hover:text-black'>
+                  <AiOutlineGithub />
+                </a>
               </div>
             </div>
             <img src={'../public/profile-photo.png'} className="rounded-full h-80 w-80"/>
