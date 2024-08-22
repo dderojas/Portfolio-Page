@@ -6,7 +6,7 @@ type NavbarProps = {
 
 export const Navbar = ({ setView, view }: NavbarProps) => {
   const something = "bg-gradient-to-r from-slate-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-  const selectedTab = 'bg-black'
+  const selectedTab = 'bg-black text-white px-4 py-2 border-none rounded-md ml-8bg-black'
 
   return (
     <>
