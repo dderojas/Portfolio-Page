@@ -18,14 +18,12 @@ const App = () => {
 
   return (
     <>
-    <div>
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="min-h-screen">
-          <Navbar setView={setView} view={view} />
-          {views[view]}
-        </section>
+      <header className='fixed p-5 w-full bg-black top-0 '>
+        <Navbar setView={setView} view={view} />
+      </header>
+      <main className="bg-white p-10 dark:bg-gray-900 md:px-20 lg:px-40">
+        {views[view]}
       </main>
-    </div>
     </>
   )
 }

@@ -10,8 +10,8 @@ export const Navbar = ({ setView, view }: NavbarProps) => {
 
   return (
     <>
-      <nav className="py-10 mb-12 flex justify-end dark:text-white">
-          <ul className="flex items-center">
+      <nav className="flex justify-end dark:text-white">
+        <ul className="flex">
           <li>
               <a
                 className={view === 'home' ? selectedTab : something}
@@ -45,7 +45,7 @@ export const Navbar = ({ setView, view }: NavbarProps) => {
               </a>
             </li>
           </ul>
-        </nav>
+      </nav>
     </>
   )
 }
