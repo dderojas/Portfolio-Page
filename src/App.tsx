@@ -15,10 +15,10 @@ const App = () => {
     projects: <Projects />,
     contact: <Contact />
   }
-
+  
   return (
     <>
-      <header className='fixed p-5 w-full bg-black top-0 '>
+      <header className='fixed p-5 w-full bg-black top-0 left-0 right-0'>
         <Navbar setView={setView} view={view} />
       </header>
       <main className="bg-white p-10 dark:bg-gray-900 md:px-20 lg:px-40">
