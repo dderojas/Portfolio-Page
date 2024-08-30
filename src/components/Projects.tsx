@@ -1,3 +1,6 @@
+import { AiOutlineGithub, AiOutlineExpand  } from 'react-icons/ai'
+
+
 const Projects = () => {
   
   return (
@@ -9,8 +12,30 @@ const Projects = () => {
       </div>
       <div className="p-5">
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Projects</h3>
-        <img src={'../public/placeholder.jpg'} className=" h-80 w-80 mt-4"/>
-        <img src={'../public/placeholder.jpg'} className=" h-80 w-80 mt-4"/>
+        <div className='my-7'>
+          <div className="bg-slate-800 text-white p-3">
+            <h2>Issues Tracker</h2>
+          </div>
+          <div>
+            <img src={'../public/placeholder.jpg'} className=" h-80 w-full"/>
+          </div>
+          <footer className='flex justify-between p-3 bg-slate-400'>
+            <AiOutlineGithub />
+            <AiOutlineExpand />
+          </footer>
+        </div>
+        <div className='my-7'>
+          <div className="bg-slate-800 text-white p-3">
+            <h2>Wordle</h2>
+          </div>
+          <div>
+            <img src={'../public/placeholder.jpg'} className=" h-80 w-full"/>
+          </div>
+          <footer className='flex justify-between p-3 bg-slate-400'>
+            <AiOutlineGithub />
+            <AiOutlineExpand />
+          </footer>
+        </div>
       </div>
     </>
   )
